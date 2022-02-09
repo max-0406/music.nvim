@@ -10,10 +10,7 @@ M.test = function()
 end
 
 M.open_moc = function()
-    local set_config = " -C ./moc_config/config"
-    local set_theme = " -T ./moc_config/music.nvim_theme"
-    local set_music_dir = " -O 'MusicDir=\"" .. music_dir .. "\"'"
-    api.nvim_exec("terminal mocp" .. set_config .. set_theme .. set_music_dir, false)
+    api.nvim_exec("terminal mocp -O 'MusicDir=\"" .. music_dir .. "\"'", false)
     api.nvim_exec("normal i", false)
     api.nvim_buf_set_option(0, "bufhidden", "wipe")
 end
