@@ -1,0 +1,37 @@
+# A MOC theme for music.nvim plugin.
+
+background		= default		default
+frame			= white		default
+window_title       	= white		default
+directory       	= white		default	bold
+selected_directory 	= black		white	bold
+playlist       		= white		default	bold
+selected_playlist 	= black		blue	bold
+file			= white 	default
+selected_file 		= black		cyan	bold
+marked_file		= cyan		default	bold
+marked_selected_file	= black		cyan	bold
+info			= white		default
+selected_info 		= black		cyan	bold
+marked_info		= cyan		default	bold
+marked_selected_info	= black		cyan	bold
+status			= white		default
+title			= white		default
+state			= white		default
+current_time		= white		default
+time_left		= white		default
+total_time		= white		default
+time_total_frames	= white		default
+sound_parameters	= white		default
+legend			= white		default
+disabled		= white		default
+enabled			= white		default	bold
+empty_mixer_bar		= white		default
+filled_mixer_bar	= white		white
+empty_time_bar		= white		default
+filled_time_bar		= white		white
+entry			= white		default
+entry_title		= white		default	bold
+error			= red		default	bold
+message			= white		default
+plist_time		= white		default
