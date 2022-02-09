@@ -1,6 +1,7 @@
 # music.nvim
 
 A plugin integrates music player into Neovim.
+![floating_window](https://github.com/max-0406/music.nvim/blob/main/screenshots/floating_window.png)
 
 ## Requirements
 
